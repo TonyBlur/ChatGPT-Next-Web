@@ -5,7 +5,7 @@ const nextConfig = {
     const ret = [
       {
         source: "/api/proxy/:path*",
-        destination: "https://openai-service.mbmzone.com/:path*",
+        destination: "https://api.openai.com/:path*",
       },
       {
         source: "/google-fonts/:path*",
