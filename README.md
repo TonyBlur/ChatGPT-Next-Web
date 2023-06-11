@@ -1,13 +1,15 @@
 <div align="center">
 <img src="./docs/images/icon.svg" alt="icon"/>
 
-<h1 align="center">ChatGPT Next Web</h1>
+<h1 align="center">tBluGPT Next Web</h1>
 
 English / [简体中文](./README_CN.md)
 
 One-Click to deploy well-designed ChatGPT web UI on Vercel.
+Modify from [ChatGPT Next Web](https://github.com/Yidadaa/ChatGPT-Next-Web).
 
 一键免费部署你的私人 ChatGPT 网页应用。
+基于[ChatGPT Next Web](https://github.com/Yidadaa/ChatGPT-Next-Web)的修改。
 
 [Demo](https://chatgpt.nextweb.fun/) / [Issues](https://github.com/Yidadaa/ChatGPT-Next-Web/issues) / [Buy Me a Coffee](https://www.buymeacoffee.com/yidadaa)
 
