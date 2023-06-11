@@ -439,7 +439,7 @@ export function ImagePreviewer(props: {
           <div>
             <div className={styles["main-title"]}>tBluGPT Next Web</div>
             <div className={styles["sub-title"]}>
-              github.com/TonyBlur/ChatGPT-Next-Web
+              github.com/TonyBlur/tBluGPT-Next-Web
             </div>
             <div className={styles["icons"]}>
               <ExportAvatar avatar={config.avatar} />
