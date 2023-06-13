@@ -5,12 +5,13 @@
 
 Implemente su aplicación web privada ChatGPT de forma gratuita con un solo clic.
 Basado en una modificación de [ChatGPT Next Web](https://github.com/Yidadaa/ChatGPT-Next-Web).
+Potenciado por [FreeGPT-4](https://github.com/Lomusire/FreeGPT-4).
 
-[Demo demo](https://chat-gpt-next-web.vercel.app/) / [Problemas de comentarios](https://github.com/Yidadaa/ChatGPT-Next-Web/issues) / [Únete a Discord](https://discord.gg/zrhvHCr79N) / [Grupo QQ](https://user-images.githubusercontent.com/16968934/228190818-7dd00845-e9b9-4363-97e5-44c507ac76da.jpeg) / [Desarrolladores de consejos](https://user-images.githubusercontent.com/16968934/227772541-5bcd52d8-61b7-488c-a203-0330d8006e2b.jpg) / [Donar](#捐赠-donate-usdt)
+[Demo demo](https://chatai.tblu.site/) / [Problemas de comentarios](https://github.com/Yidadaa/ChatGPT-Next-Web/issues) / [Únete a Discord](https://discord.gg/zrhvHCr79N) / [Grupo QQ](https://user-images.githubusercontent.com/16968934/228190818-7dd00845-e9b9-4363-97e5-44c507ac76da.jpeg) / [Desarrolladores de consejos](https://user-images.githubusercontent.com/16968934/227772541-5bcd52d8-61b7-488c-a203-0330d8006e2b.jpg)
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FYidadaa%2FChatGPT-Next-Web\&env=OPENAI_API_KEY\&env=CODE\&project-name=chatgpt-next-web\&repository-name=ChatGPT-Next-Web)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FTonyBlur%2FtBluGPT-Next-Web&env=OPENAI_API_KEY&env=CODE&project-name=tblugpt-next-web&repository-name=tBluGPT-Next-Web)
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/Yidadaa/ChatGPT-Next-Web)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/TonyBlur/tBluGPT-Next-Web)
 
 ![主界面](./docs/images/cover.png)
 
@@ -20,7 +21,7 @@ Basado en una modificación de [ChatGPT Next Web](https://github.com/Yidadaa/Cha
 
 1.  Prepara el tuyo [Clave API OpenAI](https://platform.openai.com/account/api-keys);
 2.  Haga clic en el botón de la derecha para iniciar la implementación:
-    [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FYidadaa%2FChatGPT-Next-Web\&env=OPENAI_API_KEY\&env=CODE\&project-name=chatgpt-next-web\&repository-name=ChatGPT-Next-Web), inicie sesión directamente con su cuenta de Github y recuerde completar la clave API y la suma en la página de variables de entorno[Contraseña de acceso a la página](#配置页面访问密码) CÓDIGO;
+    [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FTonyBlur%2FtBluGPT-Next-Web&env=OPENAI_API_KEY&env=CODE&project-name=tblugpt-next-web&repository-name=tBluGPT-Next-Web), inicie sesión directamente con su cuenta de Github y recuerde completar la clave API y la suma en la página de variables de entorno[Contraseña de acceso a la página](#配置页面访问密码) CÓDIGO;
 3.  Una vez implementado, puede comenzar;
 4.  (Opcional)[Enlazar un nombre de dominio personalizado](https://vercel.com/docs/concepts/projects/domains/add-a-domain): El nombre de dominio DNS asignado por Vercel está contaminado en algunas regiones y puede conectarse directamente enlazando un nombre de dominio personalizado.
 
@@ -103,7 +104,7 @@ Si no desea que los usuarios utilicen GPT-4, establezca esta variable de entorno
 
 Haga clic en el botón de abajo para iniciar el desarrollo secundario:
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/Yidadaa/ChatGPT-Next-Web)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com//TonyBlur/tBluGPT-Next-Web)
 
 Antes de empezar a escribir código, debe crear uno nuevo en la raíz del proyecto `.env.local` archivo, lleno de variables de entorno:
 
