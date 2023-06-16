@@ -7,7 +7,7 @@ English / [简体中文](./README_CN.md)
 
 One-Click to get well-designed cross-platform ChatGPT web UI.
 Modify from [ChatGPT Next Web](https://github.com/Yidadaa/ChatGPT-Next-Web).
-Powered by [FreeGPT-4](https://github.com/Lomusire/FreeGPT-4)
+Powered by [FreeGPT-4](https://github.com/Lomusire/FreeGPT-4).
 
 一键免费部署你的跨平台私人 ChatGPT 应用。
 基于[ChatGPT Next Web](https://github.com/Yidadaa/ChatGPT-Next-Web)的修改。
