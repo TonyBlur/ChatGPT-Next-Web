@@ -6,16 +6,29 @@
 English / [简体中文](./README_CN.md)
 
 One-Click to get well-designed cross-platform ChatGPT web UI.
-Modify from [ChatGPT Next Web](https://github.com/Yidadaa/ChatGPT-Next-Web).
-Powered by [FreeGPT-4](https://github.com/Lomusire/FreeGPT-4).
 
 一键免费部署你的跨平台私人 ChatGPT 应用。
-基于[ChatGPT Next Web](https://github.com/Yidadaa/ChatGPT-Next-Web)的修改。
-由[FreeGPT-4](https://github.com/Lomusire/FreeGPT-4)驱动。
 
-[Demo](https://chatai.tblu.site/) / [Issues](https://github.com/Yidadaa/ChatGPT-Next-Web/issues)
+[![Web][Web-image]][web-url]
+[![Windows][Windows-image]][download-url]
+[![MacOS][MacOS-image]][download-url]
+[![Linux][Linux-image]][download-url]
 
-[演示](https://chatai.tblu.site/) / [反馈](https://github.com/Yidadaa/ChatGPT-Next-Web/issues) / [打赏开发者](https://user-images.githubusercontent.com/16968934/227772541-5bcd52d8-61b7-488c-a203-0330d8006e2b.jpg)
+[Web App](https://chatgpt.nextweb.fun/) / [Desktop App](https://github.com/Yidadaa/ChatGPT-Next-Web/releases) / [Issues](https://github.com/Yidadaa/ChatGPT-Next-Web/issues) / [Buy Me a Coffee](https://www.buymeacoffee.com/yidadaa)
+
+[网页版](https://chatgpt.nextweb.fun/) / [客户端](https://github.com/Yidadaa/ChatGPT-Next-Web/releases) / [反馈](https://github.com/Yidadaa/ChatGPT-Next-Web/issues) / [QQ 群](https://github.com/Yidadaa/ChatGPT-Next-Web/discussions/1724) / [打赏开发者](https://user-images.githubusercontent.com/16968934/227772541-5bcd52d8-61b7-488c-a203-0330d8006e2b.jpg)
+
+[web-url]: https://chatgpt.nextweb.fun
+   
+[download-url]: https://github.com/Yidadaa/ChatGPT-Next-Web/releases
+
+[Web-image]: https://img.shields.io/badge/Web-PWA-orange?logo=microsoftedge
+
+[Windows-image]: https://img.shields.io/badge/-Windows-blue?logo=windows
+
+[MacOS-image]: https://img.shields.io/badge/-MacOS-black?logo=apple
+
+[Linux-image]: https://img.shields.io/badge/-Linux-333?logo=ubuntu
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FTonyBlur%2FtBluGPT-Next-Web&env=OPENAI_API_KEY&env=CODE&project-name=tblugpt-next-web&repository-name=tBluGPT-Next-Web)
 
@@ -28,6 +41,8 @@ Powered by [FreeGPT-4](https://github.com/Lomusire/FreeGPT-4).
 ## Features
 
 - **Deploy for free with one-click** on Vercel in under 1 minute
+- Compact client (~5MB) on Linux/Windows/MacOS, [download it now](https://github.com/Yidadaa/ChatGPT-Next-Web/releases)
+- Fully compatible with self-deployed llms, recommended for use with [RWKV-Runner](https://github.com/josStorer/RWKV-Runner) or [LocalAI](https://github.com/go-skynet/LocalAI)
 - Privacy first, all data stored locally in the browser
 - Markdown support: LaTex, mermaid, code highlight, etc.
 - Responsive design, dark mode and PWA
@@ -48,11 +63,6 @@ Powered by [FreeGPT-4](https://github.com/Lomusire/FreeGPT-4).
 - [x] Desktop App with tauri
 - [x] Self-host Model: Fully compatible with [RWKV-Runner](https://github.com/josStorer/RWKV-Runner), as well as server deployment of [LocalAI](https://github.com/go-skynet/LocalAI): llama/gpt4all/rwkv/vicuna/koala/gpt4all-j/cerebras/falcon/dolly etc.
 - [ ] Plugins: support network search, calculator, any other apis etc. [#165](https://github.com/Yidadaa/ChatGPT-Next-Web/issues/165)
-
-### Not in Plan
-
-- User login, accounts, cloud sync
-- UI text customize
 
 ## What's New
 
