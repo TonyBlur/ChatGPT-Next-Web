@@ -86,14 +86,18 @@ export const ALL_MODELS = [
     name: "gpt-3.5-turbo-16k-0613",
     available: false,
   },
-  // {
-  //   name: "claude+",
-  //   available: true,
-  // },
-  // {
-  //   name: "claude-instant-100k",
-  //   available: true,
-  // },
+  {
+    name: "claude-instant",
+    available: true,
+  },
+  {
+    name: "claude+",
+    available: true,
+  },
+  {
+    name: "claude-instant-100k",
+    available: true,
+  },
   // {
   //   name: "qwen-v1", // 通义千问
   //   available: false,
