@@ -29,7 +29,7 @@ const cn = {
     },
     InputActions: {
       Stop: "停止响应",
-      ToBottom: "滚到最新",
+      ToBottom: "回到底部",
       Theme: {
         auto: "自动主题",
         light: "亮色模式",
