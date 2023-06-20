@@ -737,6 +737,7 @@ export function Chat() {
             {!session.topic ? DEFAULT_TOPIC : session.topic}
           </div>
           <div className="window-header-sub-title">
+            {Locale.Chat.SubTitle(session.mask.modelConfig.model)}
             {Locale.Chat.SubTitle(session.messages.length)}
           </div>
         </div>
