@@ -1,0 +1,19 @@
+<svg width="512" height="512" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="none">
+ <defs>
+  <rect height="30" width="30" y="0" x="0" id="path_0"/>
+  <rect height="20.45455" width="20.45455" y="0" x="0" id="path_1"/>
+ </defs>
+ <g>
+  <title>Layer 1</title>
+  <mask fill="white" id="bg-mask-0">
+   <use id="svg_3" xlink:href="#path_0"/>
+  </mask>
+  <mask stroke="null" fill="white" id="bg-mask-1">
+   <use stroke="null" id="svg_6" xlink:href="#path_1"/>
+  </mask>
+  <g id="svg_9">
+   <rect id="svg_2" rx="10" height="30" width="30" y="0" x="0" fill="#f0f0eb"/>
+   <path stroke="null" fill="#181818" d="m18.79655,8l-2.71531,0l4.95167,12.51114l2.71531,0l-4.95167,-12.51114zm-7.84487,0l-4.95167,12.51114l2.76887,0l1.01262,-2.62734l5.18039,0l1.01262,2.62734l2.76887,0l-4.95167,-12.51114l-2.84003,0zm-0.27446,7.56024l1.69448,-4.39688l1.69448,4.39688l-3.38895,0z" fill-rule="evenodd" id="分组 1"/>
+  </g>
+ </g>
+</svg>
