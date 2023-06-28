@@ -10,7 +10,7 @@ const no: PartialLocaleType = {
     ChatItemCount: (count: number) => `${count} meldinger`,
   },
   Chat: {
-    SubTitle: (model: string, count: number) => `${count} meldinger med ${model}`,
+    SubTitle: (count: number) => `Totalt ${count} meldinger`,
     Actions: {
       ChatList: "Gå til chatlisten",
       CompressedHistory: "Komprimert historikk for instrukser",

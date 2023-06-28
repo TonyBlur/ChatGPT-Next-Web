@@ -11,7 +11,7 @@ const jp: PartialLocaleType = {
     ChatItemCount: (count: number) => `${count} 通のチャット`,
   },
   Chat: {
-    SubTitle: (model: string, count: number) => `${model} との ${count} 通のチャット`,
+    SubTitle: (count: number) => `会話総数 ${count}`,
     Actions: {
       ChatList: "メッセージリストを表示",
       CompressedHistory: "圧縮された履歴プロンプトを表示",

@@ -11,7 +11,7 @@ const ru: PartialLocaleType = {
     ChatItemCount: (count: number) => `${count} сообщений`,
   },
   Chat: {
-    SubTitle: (model: string, count: number) => `${count} сообщений с ${model}`,
+    SubTitle: (count: number) => `Всего ${count} сообщения`,
     Actions: {
       ChatList: "Перейти к списку чатов",
       CompressedHistory: "Сжатая история памяти",

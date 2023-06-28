@@ -10,7 +10,7 @@ const tw: PartialLocaleType = {
     ChatItemCount: (count: number) => `${count} 條對話`,
   },
   Chat: {
-    SubTitle: (model: string, count: number) => `您已經與 ${model} 進行了 ${count} 條對話`,
+    SubTitle: (count: number) => `總共 ${count} 條對話`,
     Actions: {
       ChatList: "查看訊息列表",
       CompressedHistory: "查看壓縮後的歷史 Prompt",

@@ -11,7 +11,7 @@ const cs: PartialLocaleType = {
     ChatItemCount: (count: number) => `${count} zpráv`,
   },
   Chat: {
-    SubTitle: (model: string, count: number) => `${count} zpráv s ${model}`,
+    SubTitle: (count: number) => `Celkem zpráv ${count}`,
     Actions: {
       ChatList: "Přejít na seznam chatů",
       CompressedHistory: "Pokyn z komprimované paměti historie",
