@@ -81,6 +81,10 @@ export const DEFAULT_MODELS = [
   //   available: false,
   // },
   {
+    name: "gpt-4-poe",
+    available: false,
+  },
+  {
     name: "gpt-3.5-turbo",
     available: true,
   },
@@ -95,6 +99,10 @@ export const DEFAULT_MODELS = [
   {
     name: "gpt-3.5-turbo-16k-0613",
     available: false,
+  },
+  {
+    name: "gpt-3.5-turbo-poe",
+    available: true,
   },
   {
     name: "claude-instant",
