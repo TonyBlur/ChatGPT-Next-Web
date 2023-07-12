@@ -74,7 +74,7 @@ export const DEFAULT_MODELS = [
   },
   {
     name: "gpt-4-32k",
-    available: true,
+    available: false,
   },
   // {
   //   name: "gpt-4-32k-0613",
@@ -85,21 +85,25 @@ export const DEFAULT_MODELS = [
     available: true,
   },
   {
-    name: "gpt-3.5-turbo",
+    name: "gpt-4-32k-poe",
     available: true,
   },
   {
-    name: "gpt-3.5-turbo-0613",
+    name: "gpt-3.5-turbo",
     available: true,
   },
+  // {
+  //   name: "gpt-3.5-turbo-0613",
+  //   available: true,
+  // },
   {
     name: "gpt-3.5-turbo-16k",
     available: true,
   },
-  {
-    name: "gpt-3.5-turbo-16k-0613",
-    available: false,
-  },
+  // {
+  //   name: "gpt-3.5-turbo-16k-0613",
+  //   available: true,
+  // },
   {
     name: "gpt-3.5-turbo-poe",
     available: true,
@@ -109,7 +113,7 @@ export const DEFAULT_MODELS = [
     available: true,
   },
   {
-    name: "claude+",
+    name: "claude-2-100k",
     available: true,
   },
   {
