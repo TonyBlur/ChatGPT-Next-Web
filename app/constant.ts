@@ -69,12 +69,16 @@ export const DEFAULT_MODELS = [
     available: true,
   },
   {
-    name: "gpt-4-0613",
+    name: "gpt-4-0314",
     available: true,
   },
+  // {
+  //   name: "gpt-4-0613",
+  //   available: true,
+  // },
   {
     name: "gpt-4-32k",
-    available: false,
+    available: true,
   },
   // {
   //   name: "gpt-4-32k-0613",
@@ -108,6 +112,10 @@ export const DEFAULT_MODELS = [
     name: "gpt-3.5-turbo-poe",
     available: true,
   },
+    {
+    name: "gpt-3.5-turbo-16k-poe",
+    available: true,
+  },
   {
     name: "claude-instant",
     available: true,
@@ -120,25 +128,5 @@ export const DEFAULT_MODELS = [
     name: "claude-instant-100k",
     available: true,
   },
-  // {
-  //   name: "qwen-v1", // 通义千问
-  //   available: false,
-  // },
-  // {
-  //   name: "ernie", // 文心一言
-  //   available: false,
-  // },
-  // {
-  //   name: "spark", // 讯飞星火
-  //   available: false,
-  // },
-  // {
-  //   name: "llama", // llama
-  //   available: false,
-  // },
-  // {
-  //   name: "chatglm", // chatglm-6b
-  //   available: false,
-  // },
 ] as const;
 
