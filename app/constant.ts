@@ -85,15 +85,11 @@ export const DEFAULT_MODELS = [
   //   available: true,
   // },
   {
-    name: "gpt-4-poe",
-    available: true,
-  },
-  {
-    name: "gpt-4-32k-poe",
-    available: true,
-  },
-  {
     name: "gpt-3.5-turbo",
+    available: true,
+  },
+  {
+    name: "gpt-3.5-turbo-0301",
     available: true,
   },
   // {
@@ -108,24 +104,28 @@ export const DEFAULT_MODELS = [
   //   name: "gpt-3.5-turbo-16k-0613",
   //   available: true,
   // },
+  // {
+  //   name: "claude-instant",
+  //   available: true,
+  // },
+  // {
+  //   name: "claude-2-100k",
+  //   available: true,
+  // },
+  // {
+  //   name: "claude-instant-100k",
+  //   available: true,
+  // },
   {
-    name: "gpt-3.5-turbo-poe",
+    name: "llama-2-7b-chat",
     available: true,
   },
-    {
-    name: "gpt-3.5-turbo-16k-poe",
+  {
+    name: "llama-2-13b-chat",
     available: true,
   },
   {
-    name: "claude-instant",
-    available: true,
-  },
-  {
-    name: "claude-2-100k",
-    available: true,
-  },
-  {
-    name: "claude-instant-100k",
+    name: "llama-2-70b-chat",
     available: true,
   },
 ] as const;

@@ -9,6 +9,7 @@ import { ModelType } from "../store";
 import BotIcon from "../icons/bot.svg";
 import BlackBotIcon from "../icons/black-bot.svg";
 import AnthropicBotIcon from "../icons/anthropic-bot.svg";
+import MetaBotIcon from "../icons/meta-bot.svg";
 
 export function getEmojiUrl(unified: string, style: EmojiStyle) {
   return `https://cdn.staticfile.org/emoji-datasource-apple/14.0.0/img/${style}/64/${unified}.png`;
@@ -37,6 +38,8 @@ export function Avatar(props: { model?: ModelType; avatar?: string }) {
           <BlackBotIcon className="user-avatar" />
         ) : props.model?.startsWith("claude") ? (
           <AnthropicBotIcon className="user-avatar" />
+        ) : props.model?.startsWith("llama") ? (
+          <MetaBotIcon className="user-avatar" />
         ) : (
           <BotIcon className="user-avatar" />
         )}
