@@ -81,7 +81,7 @@ export const useAccessStore = create<AccessControlStore>()(
 
             if (res.disableGPT4) {
               DEFAULT_MODELS.forEach(
-                (m: any) => (m.available = !m.name.startsWith("gpt-4" || "xy-openai-gpt4")),
+                (m: any) => (m.available = !m.name.startsWith("gpt-4") && !m.name.startsWith("xy-openai-gpt4")),
               );
             }
           })
