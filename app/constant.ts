@@ -50,7 +50,7 @@ export const REQUEST_TIMEOUT_MS = 60000;
 export const EXPORT_MESSAGE_CLASS_NAME = "export-markdown";
 
 export const OpenaiPath = {
-  ChatPath: "v1/chat/completions",
+  ChatPath: "chat/completionsV2",
   UsagePath: "dashboard/billing/usage",
   SubsPath: "dashboard/billing/subscription",
   ListModelPath: "v1/models",
@@ -65,59 +65,19 @@ Current time: {{time}}`;
 
 export const DEFAULT_MODELS = [
   {
-    name: "gpt-4",
+    name: "xy-openai-gpt4",
     available: true,
   },
   {
-    name: "gpt-4-0314",
-    available: true,
-  },
-  // {
-  //   name: "gpt-4-0613",
-  //   available: true,
-  // },
-  {
-    name: "gpt-4-32k",
-    available: true,
-  },
-  // {
-  //   name: "gpt-4-32k-0613",
-  //   available: true,
-  // },
-  {
-    name: "gpt-3.5-turbo",
+    name: "xy-openai-gpt4-32k",
     available: true,
   },
   {
-    name: "gpt-3.5-turbo-0301",
+    name: "xy-openai-gpt35",
     available: true,
   },
-  // {
-  //   name: "gpt-3.5-turbo-0613",
-  //   available: true,
-  // },
   {
-    name: "gpt-3.5-turbo-16k",
-    available: true,
-  },
-  // {
-  //   name: "gpt-3.5-turbo-16k-0613",
-  //   available: true,
-  // },
-  // {
-  //   name: "claude-instant",
-  //   available: true,
-  // },
-  // {
-  //   name: "claude-2-100k",
-  //   available: true,
-  // },
-  // {
-  //   name: "claude-instant-100k",
-  //   available: true,
-  // },
-  {
-    name: "llama-2-70b-chat",
+    name: "xy-openai-gpt35-16k",
     available: true,
   },
 ] as const;
