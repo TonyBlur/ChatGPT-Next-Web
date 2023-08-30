@@ -51,6 +51,7 @@ export const EXPORT_MESSAGE_CLASS_NAME = "export-markdown";
 
 export const OpenaiPath = {
   ChatPath: "v1/chat/completions",
+  // ImagesPath:"v1/images/generations",
   UsagePath: "dashboard/billing/usage",
   SubsPath: "dashboard/billing/subscription",
   ListModelPath: "v1/models",
@@ -71,13 +72,13 @@ export const DEFAULT_MODELS = [
     available: true,
   },
   {
+    name: "gpt-4-0613",
+    available: true,
+  },
+  {
     name: "gpt-4-0314",
     available: true,
   },
-  // {
-  //   name: "gpt-4-0613",
-  //   available: true,
-  // },
   {
     name: "gpt-4-32k",
     available: true,
@@ -91,21 +92,25 @@ export const DEFAULT_MODELS = [
     available: true,
   },
   {
+    name: "gpt-3.5-turbo-0613",
+    available: true,
+  },
+  {
     name: "gpt-3.5-turbo-0301",
     available: true,
   },
-  // {
-  //   name: "gpt-3.5-turbo-0613",
-  //   available: true,
-  // },
   {
     name: "gpt-3.5-turbo-16k",
     available: true,
   },
-  // {
-  //   name: "gpt-3.5-turbo-16k-0613",
-  //   available: true,
-  // },
+  {
+    name: "gpt-3.5-turbo-16k-0613",
+    available: true,
+  },
+  {
+    name: "gpt-3.5-turbo-16k-0301",
+    available: true,
+  },
   {
     name: "claude-2",
     available: true,
