@@ -15,6 +15,7 @@ const en: LocaleType = {
   Auth: {
     Title: "Need Access Code",
     Tips: "Please enter access code below",
+    SubTips: "Or enter your OpenAI API Key",
     Input: "access code",
     Confirm: "Confirm",
     Later: "Later",
@@ -181,7 +182,43 @@ const en: LocaleType = {
       SubTitle: "Generate a suitable title based on the conversation content",
     },
     Sync: {
-      LastUpdate: "Last Update",
+      CloudState: "Last Update",
+      NotSyncYet: "Not sync yet",
+      Success: "Sync Success",
+      Fail: "Sync Fail",
+
+      Config: {
+        Modal: {
+          Title: "Config Sync",
+          Check: "Check Connection",
+        },
+        SyncType: {
+          Title: "Sync Type",
+          SubTitle: "Choose your favorite sync service",
+        },
+        Proxy: {
+          Title: "Enable CORS Proxy",
+          SubTitle: "Enable a proxy to avoid cross-origin restrictions",
+        },
+        ProxyUrl: {
+          Title: "Proxy Endpoint",
+          SubTitle:
+            "Only applicable to the built-in CORS proxy for this project",
+        },
+
+        WebDav: {
+          Endpoint: "WebDAV Endpoint",
+          UserName: "User Name",
+          Password: "Password",
+        },
+
+        UpStash: {
+          Endpoint: "UpStash Redis REST Url",
+          UserName: "Backup Name",
+          Password: "UpStash Redis REST Token",
+        },
+      },
+
       LocalState: "Local Data",
       Overview: (overview: any) => {
         return `${overview.chat} chats，${overview.message} messages，${overview.prompt} prompts，${overview.mask} masks`;
@@ -293,6 +330,10 @@ const en: LocaleType = {
     Success: "Copied to clipboard",
     Failed: "Copy failed, please grant permission to access clipboard",
   },
+  Download: {
+    Success: "Content downloaded to your directory.",
+    Failed: "Download failed.",
+  },
   Context: {
     Toast: (x: any) => `With ${x} contextual prompts`,
     Edit: "Current Chat Settings",
@@ -366,6 +407,7 @@ const en: LocaleType = {
     Export: "Export",
     Import: "Import",
     Sync: "Sync",
+    Config: "Config",
   },
   Exporter: {
     Model: "Model",
