@@ -38,7 +38,7 @@ export function Avatar(props: { model?: ModelType; avatar?: string }) {
           <BlackBotIcon className="user-avatar" />
         ) : props.model?.startsWith("claude") ? (
           <AnthropicBotIcon className="user-avatar" />
-        ) : props.model?.startsWith("llama") ? (
+        ) : props.model?.includes("llama") ? (
           <MetaBotIcon className="user-avatar" />
         ) : (
           <BotIcon className="user-avatar" />
