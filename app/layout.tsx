@@ -6,7 +6,7 @@ import { getClientConfig } from "./config/client";
 import { type Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "tBluGPT Next Web",
+  title: "tBluNextChat",
   description: "Your personal ChatGPT Chat Bot.",
   viewport: {
     width: "device-width",
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     { media: "(prefers-color-scheme: dark)", color: "#151515" },
   ],
   appleWebApp: {
-    title: "tBluGPT Next Web",
+    title: "tBluNextChat",
     statusBarStyle: "default",
   },
 };
