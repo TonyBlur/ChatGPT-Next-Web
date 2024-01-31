@@ -155,7 +155,11 @@ export function SideBar(props: { className?: string }) {
     >
       <div className={styles["sidebar-header"]} data-tauri-drag-region>
         <div className={styles["sidebar-title"]} data-tauri-drag-region>
+<<<<<<< HEAD
           tBluGPT Next Pre
+=======
+          NextChat
+>>>>>>> e1b065c74a06ae5850f8aa37a6c8b97ff842fc6c
         </div>
         <div className={styles["sidebar-sub-title"]}>
           Generate more with AI assistant.

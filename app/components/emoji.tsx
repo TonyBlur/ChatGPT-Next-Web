@@ -12,7 +12,10 @@ import AnthropicBotIcon from "../icons/anthropic-bot.svg";
 import MetaBotIcon from "../icons/meta-bot.svg";
 
 export function getEmojiUrl(unified: string, style: EmojiStyle) {
-  return `https://cdn.staticfile.org/emoji-datasource-apple/14.0.0/img/${style}/64/${unified}.png`;
+  // Whoever owns this Content Delivery Network (CDN), I am using your CDN to serve emojis
+  // Old CDN broken, so I had to switch to this one
+  // Author: https://github.com/H0llyW00dzZ
+  return `https://cdn.jsdelivr.net/npm/emoji-datasource-apple/img/${style}/64/${unified}.png`;
 }
 
 export function AvatarPicker(props: {

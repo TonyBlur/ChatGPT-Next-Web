@@ -29,10 +29,11 @@ import NextImage from "next/image";
 
 import { toBlob, toPng } from "html-to-image";
 import { DEFAULT_MASK_AVATAR } from "../store/mask";
-import { api } from "../client/api";
+
 import { prettyObject } from "../utils/format";
-import { EXPORT_MESSAGE_CLASS_NAME } from "../constant";
+import { EXPORT_MESSAGE_CLASS_NAME, ModelProvider } from "../constant";
 import { getClientConfig } from "../config/client";
+import { ClientApi } from "../client/api";
 
 const Markdown = dynamic(async () => (await import("./markdown")).Markdown, {
   loading: () => <LoadingIcon />,
@@ -301,9 +302,16 @@ export function PreviewActions(props: {
 }) {
   const [loading, setLoading] = useState(false);
   const [shouldExport, setShouldExport] = useState(false);
-
+  const config = useAppConfig();
   const onRenderMsgs = (msgs: ChatMessage[]) => {
     setShouldExport(false);
+
+    var api: ClientApi;
+    if (config.modelConfig.model === "gemini-pro") {
+      api = new ClientApi(ModelProvider.GeminiPro);
+    } else {
+      api = new ClientApi(ModelProvider.GPT);
+    }
 
     api
       .share(msgs)
@@ -530,7 +538,11 @@ export function ImagePreviewer(props: {
           </div>
 
           <div>
+<<<<<<< HEAD
             <div className={styles["main-title"]}>tBluGPT Next Web</div>
+=======
+            <div className={styles["main-title"]}>NextChat</div>
+>>>>>>> e1b065c74a06ae5850f8aa37a6c8b97ff842fc6c
             <div className={styles["sub-title"]}>
               github.com/TonyBlur/tBluGPT-Next-Web
             </div>
