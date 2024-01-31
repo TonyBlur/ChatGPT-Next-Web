@@ -7,7 +7,7 @@
 基于[ChatGPT Next Web](https://github.com/Yidadaa/ChatGPT-Next-Web)的修改。
 由[FreeGPT-4](https://github.com/Lomusire/FreeGPT-4)驱动。
 
-[演示 Demo](https://chatai.tblu.site/) / [反馈 Issues](https://github.com/Yidadaa/ChatGPT-Next-Web/issues) / [加入 Discord](https://discord.gg/zrhvHCr79N) / [QQ 群](https://user-images.githubusercontent.com/16968934/228190818-7dd00845-e9b9-4363-97e5-44c507ac76da.jpeg) / [打赏开发者](https://user-images.githubusercontent.com/16968934/227772541-5bcd52d8-61b7-488c-a203-0330d8006e2b.jpg)
+[演示 Demo](https://chat-gpt-next-web.vercel.app/) / [反馈 Issues](https://github.com/Yidadaa/ChatGPT-Next-Web/issues) / [加入 Discord](https://discord.gg/zrhvHCr79N)
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FTonyBlur%2FtBluGPT-Next-Web&env=OPENAI_API_KEY&env=CODE&project-name=tblugpt-next-web&repository-name=tBluGPT-Next-Web)
 
